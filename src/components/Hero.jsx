@@ -1,6 +1,7 @@
 import React from "react";
 import { hero, navLinks, socials } from "../portfolio";
 import Container from "./Container";
+import Button from "./ui/Button";
 
 const Hero = () => {
   return (
@@ -20,6 +21,14 @@ const Hero = () => {
           {hero.role}
         </h2>
         <p className="mt-4 max-w-xs leading-normal">{hero.decription}</p>
+        <div className="flex space-x-4 w-full">
+          <Button variant={"primary"} size={"md"}>
+            <a href={hero.email}> Reach out</a>
+          </Button>
+          <Button variant={"secondary"} size={"md"}>
+            <a href={hero.CV}>Read CV</a>
+          </Button>
+        </div>
         <nav className="nav hidden lg:block" aria-label="In-page jump links">
           <ul className="mt-16 w-max">
             {navLinks.map((item) => (

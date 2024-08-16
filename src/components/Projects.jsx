@@ -45,7 +45,7 @@ export default function Projects({
                     {hoveredIdx === idx && (
                       <motion.span
                         className={cn(
-                          "absolute inset-0 z-0 block h-full w-full rounded-xl bg-teal-50 ",
+                          "absolute inset-0 z-0 block h-full w-full rounded-xl bg-blue-50 ",
                           hoveredItemClassName
                         )}
                         layoutId="cardHoverEffect"
@@ -62,7 +62,7 @@ export default function Projects({
                     )}
                   </AnimatePresence>
 
-                  <li className="mb-12">
+                  <li className="mb-6">
                     <div className="group relative grid pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4">
                       <div
                         className="z-10 mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2"
@@ -111,7 +111,7 @@ export default function Projects({
                         >
                           {skills.map((skill) => (
                             <li className="mr-1.5 mt-2">
-                              <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-500 ">
+                              <div className="flex items-center rounded-full bg-blue-400/10 px-3 py-1 text-xs font-medium leading-5 text-blue-500 ">
                                 {skill}
                               </div>
                             </li>
