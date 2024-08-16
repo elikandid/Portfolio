@@ -23,7 +23,7 @@ const Hero = () => {
         <p className="mt-4 max-w-xs leading-normal">{hero.decription}</p>
         <div className="flex space-x-4 w-full">
           <Button variant={"primary"} size={"md"}>
-            <a href={hero.email}> Reach out</a>
+            <a href={`mailto:${hero.email}`}> Reach out</a>
           </Button>
           <Button variant={"secondary"} size={"md"}>
             <a href={hero.CV}>Read CV</a>
