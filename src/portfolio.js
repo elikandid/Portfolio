@@ -34,7 +34,7 @@ const projects = [
     title: "Furnish app",
     description:
       "Furnish App is a simple, responsive web app for purchasing furniture. It offers a user-friendly interface with a range of furniture items, smooth navigation, and an aesthetically pleasing layout. Built with React, it efficiently handles dynamic content and user interactions for a seamless shopping experience.",
-    href: "https://github.com/elikandid/furnish-app",
+    href: "https://furnish-app-sepia.vercel.app",
     skills: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
@@ -49,7 +49,7 @@ const projects = [
     title: "My personal website",
     description:
       " This project is a personal website that showcases your portfolio, skills, and projects. It features a clean, modern design and smooth navigation to highlight your work and achievements. Built with React for dynamic content management, the site serves as an online hub to display your expertise in web development.",
-    href: "/",
+    href: "https://portfoliov2-iota-six.vercel.app/",
     skills: ["HTML", "CSS", "JavaScript", "React"],
     span: "2024 — Present",
   },

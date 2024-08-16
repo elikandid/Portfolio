@@ -1,6 +1,6 @@
 import React from "react";
 import { hero, navLinks, socials } from "../portfolio";
-import Container from "./Container";
+
 import Button from "./ui/Button";
 
 const Hero = () => {
