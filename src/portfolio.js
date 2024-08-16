@@ -29,10 +29,9 @@ const hero = {
 
 const projects = [
   {
-    title: "Project 1",
-    description:
-      "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ipsam recusandae placeat quidem nisi facilis necessitatibus obcaecati est illo sint?",
-    href: "/",
+    title: "Furnish app",
+    description: "  A simple web app for purchasing furnichures",
+    href: "https://github.com/elikandid/furnish-app",
     skills: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
