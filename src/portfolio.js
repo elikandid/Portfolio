@@ -63,6 +63,10 @@ const projects = [
 
 const socials = [
   { name: "GitHub", href: "https://github.com/elikandid", icon: SiGithub },
-  { name: "LInkedin", href: "linkedin.com/in/elikemdogbey", icon: SiLinkedin },
+  {
+    name: "LInkedin",
+    href: "https://linkedin.com/in/elikemdogbey",
+    icon: SiLinkedin,
+  },
 ];
 export { about, hero, projects, navLinks, socials };
