@@ -1,6 +1,6 @@
 import About from "./components/About";
 
-import Hero from "./components/hero";
+import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 
 const App = () => {
